@@ -3,6 +3,10 @@ name: Deploy to AWS
 on:
   push:
     branches: [main]
+  # Rebuild the events calendar from Google Calendar every 6 hours so new or
+  # changed events show up without a code change.
+  schedule:
+    - cron: "17 */6 * * *"
   workflow_dispatch:
     inputs:
       ref:
@@ -37,6 +41,18 @@ jobs:
         run: |
           echo "Deploying $(git rev-parse --short HEAD) $(git log -1 --pretty=%s)"
           git rev-parse HEAD
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build events calendar data
+        # Refreshes assets/cbc/events.json from the public CBC Google Calendar
+        # ICS feed. If Google is unreachable it keeps the committed file.
+        run: |
+          pip install --quiet icalendar recurring-ical-events
+          python .github/scripts/build_events.py
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4

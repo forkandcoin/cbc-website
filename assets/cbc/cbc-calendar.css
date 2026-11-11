@@ -1,0 +1,88 @@
+/* CBC events calendar: site-styled replacement for the Google Calendar embed. */
+.calendar-wrap.cbc-cal-wrap{padding:0;background:#050505;overflow:visible}
+.cbc-cal{--cy:var(--accent-yellow,#f9b947);--co:var(--bitcoin-orange,#f7941d);--line:rgba(255,255,255,.09);
+  color:#fff;font-family:Causten,"Causten 2",Inter,Arial,sans-serif;font-size:16px;line-height:1.4;padding:24px;text-align:left}
+.cbc-cal *{box-sizing:border-box}
+.cbc-cal button{font:inherit;cursor:pointer}
+.cbc-cal-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}
+.cbc-cal-title{display:flex;align-items:center;gap:14px}
+.cbc-cal-month{font-family:"Causten 2",Causten,Arial,sans-serif;font-weight:700;font-size:30px;line-height:1;letter-spacing:-.5px;text-transform:uppercase;margin:0;color:#fff}
+.cbc-cal-month span{background-image:linear-gradient(90deg,var(--co),var(--cy));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cbc-cal-nav{display:flex;gap:8px}
+.cbc-cal-btn{background:#000;color:#fff;border:1px solid rgba(255,255,255,.18);height:42px;min-width:42px;padding:0 14px;
+  display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;letter-spacing:.5px;text-transform:uppercase;transition:border-color .2s,color .2s}
+.cbc-cal-btn:hover,.cbc-cal-btn:focus-visible{border-color:var(--cy);color:var(--cy);outline:none}
+.cbc-cal-btn[disabled]{opacity:.35;pointer-events:none}
+.cbc-cal-btn svg{width:18px;height:18px}
+.cbc-cal-views{display:flex}
+.cbc-cal-views .cbc-cal-btn{border-color:var(--cy);color:#999}
+.cbc-cal-views .cbc-cal-btn+.cbc-cal-btn{border-left:0}
+.cbc-cal-views .cbc-cal-btn.is-active{background-image:linear-gradient(90deg,var(--co),var(--cy));color:#000;font-weight:700}
+.cbc-cal-views .cbc-cal-btn:hover:not(.is-active){color:var(--cy)}
+/* month grid */
+.cbc-cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.cbc-cal-dow{padding:10px 8px;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--cy);border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#000}
+.cbc-cal-day{min-height:118px;padding:8px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#0b0b0b;display:flex;flex-direction:column;gap:5px;min-width:0}
+.cbc-cal-day.is-out{background:#040404}
+.cbc-cal-day.is-out .cbc-cal-num{color:#4d4d4d}
+.cbc-cal-num{font-size:14px;font-weight:500;color:#999;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:50%}
+.cbc-cal-day.is-today .cbc-cal-num{background-image:linear-gradient(135deg,var(--co),var(--cy));color:#000;font-weight:700}
+.cbc-cal-day.is-today{box-shadow:inset 0 0 0 1px var(--cy)}
+.cbc-cal-chip{display:block;width:100%;text-align:left;background:rgba(249,185,71,.08);border:0;border-left:3px solid var(--co);color:#fff;padding:5px 7px;font-size:13px;line-height:1.25;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .2s}
+.cbc-cal-chip:hover,.cbc-cal-chip:focus-visible{background:rgba(249,185,71,.22);outline:none}
+.cbc-cal-chip b{color:var(--cy);font-weight:600;margin-right:5px}
+.cbc-cal-chip.is-past{opacity:.45}
+/* list / cards */
+.cbc-cal-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.cbc-cal-card{display:flex;gap:18px;border:1px solid var(--cy);border-radius:12px;padding:18px;background:#000;transition:border-color .2s,transform .2s;min-width:0}
+.cbc-cal-card:hover{border-color:var(--co);transform:scale(.99)}
+.cbc-cal-card.is-past{opacity:.55}
+.cbc-cal-date{flex:none;width:72px;height:78px;border-radius:8px;background-image:linear-gradient(135deg,var(--co),var(--cy));color:#000;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:"Causten 2",Causten,Arial,sans-serif;text-transform:uppercase}
+.cbc-cal-date small{font-size:12px;font-weight:700;letter-spacing:1px}
+.cbc-cal-date strong{font-size:32px;line-height:1;font-weight:700}
+.cbc-cal-date em{font-style:normal;font-size:11px;font-weight:600;letter-spacing:1px}
+.cbc-cal-body{min-width:0;display:flex;flex-direction:column;gap:6px;flex:1}
+.cbc-cal-body h3{font-family:"Causten 2",Causten,Arial,sans-serif;font-size:22px;line-height:1.15;font-weight:600;margin:0;color:#fff}
+.cbc-cal-meta{display:flex;align-items:flex-start;gap:8px;color:#dbdbdb;font-size:15px}
+.cbc-cal-meta svg{flex:none;width:18px;height:18px;margin-top:1px;color:var(--cy)}
+.cbc-cal-desc{color:#999;font-size:15px;font-weight:300;white-space:pre-line;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cbc-cal-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.cbc-cal-cta{display:inline-flex;align-items:center;justify-content:center;padding:9px 16px;border-radius:8px;font-size:14px;font-weight:700;letter-spacing:0;text-transform:uppercase;text-decoration:none;
+  background-image:linear-gradient(90deg,var(--co),var(--cy));color:#000;transition:filter .2s}
+.cbc-cal-cta:hover{filter:brightness(1.1);color:#000}
+.cbc-cal-cta.is-ghost{background:#000;color:#fff;border:1px solid rgba(255,255,255,.2)}
+.cbc-cal-cta.is-ghost:hover{border-color:var(--cy);color:var(--cy)}
+.cbc-cal-empty{grid-column:1/-1;border:1px dashed rgba(249,185,71,.5);border-radius:12px;padding:28px;text-align:center;color:#999}
+.cbc-cal-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--line);color:#999;font-size:14px}
+.cbc-cal-foot .cbc-cal-actions{margin:0}
+/* detail dialog */
+.cbc-cal-modal{position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.75);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:20px}
+.cbc-cal-modal.is-open{display:flex}
+.cbc-cal-modal .cbc-cal-card{max-width:560px;width:100%;position:relative;padding:24px;box-shadow:0 0 15px 0 var(--cy)}
+.cbc-cal-modal .cbc-cal-card:hover{transform:none}
+.cbc-cal-modal .cbc-cal-desc{-webkit-line-clamp:12}
+.cbc-cal-close{position:absolute;top:10px;right:10px;background:none;border:0;color:#999;width:36px;height:36px;font-size:26px;line-height:1}
+.cbc-cal-close:hover{color:var(--cy)}
+@media (max-width:991px){.cbc-cal-list{grid-template-columns:1fr}.cbc-cal-day{min-height:96px}}
+@media (max-width:767px){
+  .cbc-cal{padding:16px}
+  .cbc-cal-month{font-size:24px}
+  .cbc-cal-bar{gap:12px}
+  .cbc-cal-day{min-height:58px;padding:4px;align-items:center}
+  .cbc-cal-dow{padding:8px 0;text-align:center;font-size:11px;letter-spacing:0}
+  .cbc-cal-chip{width:8px;height:8px;padding:0;border:0;border-radius:50%;background-image:linear-gradient(135deg,var(--co),var(--cy));font-size:0;display:inline-block}
+  .cbc-cal-day .cbc-cal-dots{display:flex;flex-wrap:wrap;gap:3px;justify-content:center}
+  .cbc-cal-card{gap:14px;padding:14px}
+  .cbc-cal-date{width:60px;height:68px}
+  .cbc-cal-date strong{font-size:26px}
+  .cbc-cal-body h3{font-size:19px}
+}
+@media (max-width:767px){
+  .cbc-cal{padding:14px 12px}
+  .cbc-cal-nav{width:100%;gap:6px}
+  .cbc-cal-nav .cbc-cal-btn{height:38px;min-width:38px;padding:0 10px;font-size:13px}
+  .cbc-cal-views{margin-left:auto}
+  .cbc-cal-foot{flex-direction:column;align-items:flex-start}
+}
