@@ -68,3 +68,12 @@ aws s3 sync "$SRC" "s3://$BUCKET" "${EX[@]}" \
   --cache-control "$LONG" \
   --delete \
   --no-progress
+
+# The events calendar data is rebuilt every few hours, so browsers must
+# revalidate it instead of caching it for a year like other assets.
+if [ -f "$SRC/assets/cbc/events.json" ]; then
+  aws s3 cp "$SRC/assets/cbc/events.json" "s3://$BUCKET/assets/cbc/events.json" \
+    --content-type "application/json" \
+    --cache-control "no-cache" \
+    --no-progress
+fi
