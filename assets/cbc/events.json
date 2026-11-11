@@ -1,0 +1,862 @@
+{
+ "calendar": "chicagobitcoincollective@gmail.com",
+ "timezone": "America/Chicago",
+ "generated": "2026-11-11T15:18:40-06:00",
+ "events": [
+  {
+   "title": "IBC Private Event",
+   "start": "2026-08-01",
+   "end": "2026-08-01",
+   "allDay": true,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2026-08-04T08:00-05:00",
+   "end": "2026-08-04T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Biweekly Bitcoin Coffee meetup for early birds to talk about Bitcoin.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Ribbon Cutting Ceremony",
+   "start": "2026-08-08T11:00-05:00",
+   "end": "2026-08-08T12:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Bitcoin Brunch @ Fork and Coin",
+   "start": "2026-08-09T11:00-05:00",
+   "end": "2026-08-09T14:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2026-08-13T18:00-05:00",
+   "end": "2026-08-13T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "B.O.B. Social - Special Guest Speaker",
+   "start": "2026-08-20T18:00-05:00",
+   "end": "2026-08-20T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2026-08-27T18:00-05:00",
+   "end": "2026-08-27T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Izakaya night",
+   "start": "2026-08-29T18:00-05:00",
+   "end": "2026-08-29T21:00-05:00",
+   "allDay": false,
+   "location": "https://pay.zaprite.com/pl_Y4LSg3KjHW",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2026-09-01T08:00-05:00",
+   "end": "2026-09-01T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Biweekly Bitcoin Coffee meetup for early birds to talk about Bitcoin.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chef's Birthday",
+   "start": "2026-09-06",
+   "end": "2026-09-06",
+   "allDay": true,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2026-09-10T18:00-05:00",
+   "end": "2026-09-10T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2026-09-13T15:00-05:00",
+   "end": "2026-09-13T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Value 4 Value Summit",
+   "start": "2026-09-14",
+   "end": "2026-09-15",
+   "allDay": true,
+   "location": "Fork & Coin, 3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "A two-day Bitcoin gathering in Chicago built around food, music, freedom tech, local commerce, and real-world value exchange.\nMore details -",
+   "url": "https://www.chicagobitcoincollective.com/events/v4v-chicago-2026"
+  },
+  {
+   "title": "Nostr Value for Value Show and Dinner",
+   "start": "2026-09-14T16:00-05:00",
+   "end": "2026-09-14T23:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2026-09-17T18:00-05:00",
+   "end": "2026-09-17T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "Midwest Bitcoin Summit - Columbus, OH",
+   "start": "2026-09-23",
+   "end": "2026-09-24",
+   "allDay": true,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2026-09-24T18:00-05:00",
+   "end": "2026-09-24T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bob Fioretti - Crypto event (John H)",
+   "start": "2026-09-28T18:00-05:00",
+   "end": "2026-09-28T20:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2026-10-06T08:00-05:00",
+   "end": "2026-10-06T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Biweekly Bitcoin Coffee meetup for early birds to talk about Bitcoin.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2026-10-08T18:00-05:00",
+   "end": "2026-10-08T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "Joe Carlasare Book Event- Unconfiscatable",
+   "start": "2026-10-11T14:00-05:00",
+   "end": "2026-10-11T16:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2026-10-11T15:00-05:00",
+   "end": "2026-10-11T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2026-10-15T18:00-05:00",
+   "end": "2026-10-15T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "F&C lunch service starts",
+   "start": "2026-10-16T12:00-05:00",
+   "end": "2026-10-16T14:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2026-10-22T18:00-05:00",
+   "end": "2026-10-22T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Fork & Coin Supper club",
+   "start": "2026-10-23T18:00-05:00",
+   "end": "2026-10-23T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Salu Mesa Dinner Takeover",
+   "start": "2026-11-01T18:00-06:00",
+   "end": "2026-11-01T20:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "CBC Movie Night: V is for Vendetta",
+   "start": "2026-11-05T18:00-06:00",
+   "end": "2026-11-05T21:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2026-11-06T08:00-06:00",
+   "end": "2026-11-06T10:30-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2026-11-08T15:00-06:00",
+   "end": "2026-11-08T18:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2026-11-12T18:00-06:00",
+   "end": "2026-11-12T21:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "ABR Event",
+   "start": "2026-11-14T12:00-06:00",
+   "end": "2026-11-14T16:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Building in Bitcoin- Tamid event at fork and coin / CBC",
+   "start": "2026-11-15T12:00-06:00",
+   "end": "2026-11-15T14:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2026-11-19T18:00-06:00",
+   "end": "2026-11-19T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "Seated Fork & Coin supper club",
+   "start": "2026-11-20T19:00-06:00",
+   "end": "2026-11-20T22:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2026-12-04T08:00-06:00",
+   "end": "2026-12-04T10:30-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2026-12-10T18:00-06:00",
+   "end": "2026-12-10T21:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2026-12-13T15:00-06:00",
+   "end": "2026-12-13T18:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social with Staci (Conduit)",
+   "start": "2026-12-17T18:00-06:00",
+   "end": "2026-12-17T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Speaker: Staci from Conduit.",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-01-01T08:00-06:00",
+   "end": "2027-01-01T10:30-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "CBC Members Only Appreciation / Genesis Block Brunch",
+   "start": "2027-01-03T12:00-06:00",
+   "end": "2027-01-03T15:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-01-10T15:00-06:00",
+   "end": "2027-01-10T18:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-01-14T18:00-06:00",
+   "end": "2027-01-14T21:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-01-21T18:00-06:00",
+   "end": "2027-01-21T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-01-28T18:00-06:00",
+   "end": "2027-01-28T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-02-05T08:00-06:00",
+   "end": "2027-02-05T10:30-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-02-11T18:00-06:00",
+   "end": "2027-02-11T21:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-02-14T15:00-06:00",
+   "end": "2027-02-14T18:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-02-18T18:00-06:00",
+   "end": "2027-02-18T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-02-25T18:00-06:00",
+   "end": "2027-02-25T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-03-05T08:00-06:00",
+   "end": "2027-03-05T10:30-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-03-11T18:00-06:00",
+   "end": "2027-03-11T21:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-03-14T15:00-05:00",
+   "end": "2027-03-14T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-03-18T18:00-05:00",
+   "end": "2027-03-18T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-03-25T18:00-05:00",
+   "end": "2027-03-25T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-04-02T08:00-05:00",
+   "end": "2027-04-02T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-04-08T18:00-05:00",
+   "end": "2027-04-08T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-04-11T15:00-05:00",
+   "end": "2027-04-11T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-04-15T18:00-05:00",
+   "end": "2027-04-15T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-04-22T18:00-05:00",
+   "end": "2027-04-22T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-05-07T08:00-05:00",
+   "end": "2027-05-07T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-05-09T15:00-05:00",
+   "end": "2027-05-09T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-05-13T18:00-05:00",
+   "end": "2027-05-13T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-05-20T18:00-05:00",
+   "end": "2027-05-20T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-05-27T18:00-05:00",
+   "end": "2027-05-27T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-06-04T08:00-05:00",
+   "end": "2027-06-04T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-06-10T18:00-05:00",
+   "end": "2027-06-10T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-06-13T15:00-05:00",
+   "end": "2027-06-13T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-06-17T18:00-05:00",
+   "end": "2027-06-17T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-06-24T18:00-05:00",
+   "end": "2027-06-24T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-07-02T08:00-05:00",
+   "end": "2027-07-02T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-07-08T18:00-05:00",
+   "end": "2027-07-08T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-07-11T15:00-05:00",
+   "end": "2027-07-11T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-07-15T18:00-05:00",
+   "end": "2027-07-15T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-07-22T18:00-05:00",
+   "end": "2027-07-22T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-08-06T08:00-05:00",
+   "end": "2027-08-06T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-08-08T15:00-05:00",
+   "end": "2027-08-08T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-08-12T18:00-05:00",
+   "end": "2027-08-12T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-08-19T18:00-05:00",
+   "end": "2027-08-19T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-08-26T18:00-05:00",
+   "end": "2027-08-26T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-09-03T08:00-05:00",
+   "end": "2027-09-03T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-09-09T18:00-05:00",
+   "end": "2027-09-09T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-09-12T15:00-05:00",
+   "end": "2027-09-12T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-09-16T18:00-05:00",
+   "end": "2027-09-16T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-09-23T18:00-05:00",
+   "end": "2027-09-23T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-10-01T08:00-05:00",
+   "end": "2027-10-01T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-10-10T15:00-05:00",
+   "end": "2027-10-10T18:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-10-14T18:00-05:00",
+   "end": "2027-10-14T21:00-05:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-10-21T18:00-05:00",
+   "end": "2027-10-21T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-10-28T18:00-05:00",
+   "end": "2027-10-28T21:00-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  },
+  {
+   "title": "Bitcoin & Coffee",
+   "start": "2027-11-05T08:00-05:00",
+   "end": "2027-11-05T10:30-05:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly Bitcoin Coffee meetup for early birds to talk about Bitcoin, on the first Friday of each month, 8:00 AM to 10:30 AM at Fork & Coin / CBC, 3938 N Central Ave.\nThanks to Fork and Coin for hosting.",
+   "url": null
+  },
+  {
+   "title": "Chicago Bitdevs",
+   "start": "2027-11-11T18:00-06:00",
+   "end": "2027-11-11T21:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": "https://chibitdevs.org/2026-04-09-socratic-seminar-76"
+  },
+  {
+   "title": "(Members Only) Members Day",
+   "start": "2027-11-14T15:00-06:00",
+   "end": "2027-11-14T18:00-06:00",
+   "allDay": false,
+   "location": "",
+   "description": "",
+   "url": null
+  },
+  {
+   "title": "B.O.B. Social",
+   "start": "2027-11-18T18:00-06:00",
+   "end": "2027-11-18T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "",
+   "url": "https://www.meetup.com/bitcoin-open-blockchain-community-chicago/events/314131876/?slug=bitcoin-open-blockchain-community-chicago&isFirstPublish=true"
+  },
+  {
+   "title": "CBC Bitdevs",
+   "start": "2027-11-25T18:00-06:00",
+   "end": "2027-11-25T21:00-06:00",
+   "allDay": false,
+   "location": "3938 N Central Ave, Chicago, IL 60634, USA",
+   "description": "Monthly BitDevs meetup hosted at Fork and Coin.\nThis is a technical meetup about Bitcoin and related tech.\nThank you Chicago Bitcoin Collective for hosting.",
+   "url": null
+  }
+ ]
+}
