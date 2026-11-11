@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
-# Create the GitHub Actions OIDC provider and a least-privilege deploy role.
-# Run this once with an IAM admin identity in account 110936968754.
-# The grokbot-coiny IAM user cannot create these resources.
+# UNUSED. Do not run this script.
+# An AWS Organizations SCP explicitly denies iam:CreateOpenIDConnectProvider
+# in this account, so GitHub OIDC deploy is not available.
+# The site deploys with IAM user cbc-github-deploy access keys stored as
+# GitHub Actions repo secrets AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY.
+# The remainder of this file is kept only as a record of the intended OIDC setup.
+
 set -euo pipefail
 
 ACCOUNT="110936968754"
