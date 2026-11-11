@@ -1,0 +1,16 @@
+/* At 1920px and wider, the exported Webflow CSS sets the contact map to
+   height: 100svh. That is taller than the map column (.contact-a-image is
+   80vh with overflow visible), so the map spills past the intended size.
+   Keep the map filling its parent column at every breakpoint. */
+.contact-a-image {
+  overflow: hidden;
+  position: relative;
+}
+.departure-info-map.main-street.contact-page {
+  width: 100%;
+  height: 100% !important;
+  max-height: 100%;
+  position: absolute;
+  inset: 0;
+  top: 0;
+}
