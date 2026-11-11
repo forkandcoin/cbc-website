@@ -1,0 +1,13 @@
+/* Hide the fixed top nav when scrolling down; show it when scrolling up. */
+.navbar.cbc-nav-auto-hide {
+  transition: transform 0.28s ease;
+  will-change: transform;
+}
+.navbar.cbc-nav-auto-hide.is-hidden {
+  transform: translateY(-100%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .navbar.cbc-nav-auto-hide {
+    transition: none;
+  }
+}
