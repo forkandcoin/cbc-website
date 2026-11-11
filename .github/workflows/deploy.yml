@@ -1,0 +1,60 @@
+name: Deploy to AWS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Git commit SHA, branch, or tag to deploy. Leave empty to deploy this workflow's commit.
+        required: false
+        type: string
+
+# Only one deploy at a time so a rollback and a new push cannot race with --delete.
+concurrency:
+  group: deploy-cbc-site
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    name: Sync S3 and invalidate CloudFront
+    runs-on: ubuntu-latest
+    env:
+      AWS_REGION: us-east-2
+      S3_BUCKET: chicagobitcoincollective-site
+      CLOUDFRONT_DISTRIBUTION_ID: E2XSH4IVTYIP3K
+      # Role created by .github/aws/setup-oidc.sh (IAM admin must run that once).
+      AWS_ROLE_ARN: arn:aws:iam::110936968754:role/cbc-github-deploy
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+          fetch-depth: 0
+
+      - name: Show deploy target
+        run: |
+          echo "Deploying $(git rev-parse --short HEAD) $(git log -1 --pretty=%s)"
+          git rev-parse HEAD
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Sync site to S3
+        run: bash .github/scripts/deploy-s3.sh "$GITHUB_WORKSPACE"
+
+      - name: Invalidate CloudFront
+        run: |
+          ID=$(aws cloudfront create-invalidation \
+            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" \
+            --paths "/*" \
+            --query Invalidation.Id \
+            --output text)
+          echo "Invalidation $ID started. Edge caches usually clear in 1 to 5 minutes."
